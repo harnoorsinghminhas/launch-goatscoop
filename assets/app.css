@@ -128,4 +128,5 @@ dialog::backdrop{background:rgba(27,26,23,.55)}
 .x{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:8px}
 /* placeholder logo slot (see README) */
 a.brand img.brand-logo,a.logo img.brand-logo,img.brand-logo{display:block;height:38px;width:auto;max-width:100%}
+.trade-name span{display:inline-block;margin:0 .6rem}.trade-name{max-width:70rem;margin:0 auto;padding:1rem 16px 1.75rem;font-size:.9rem;line-height:1.4;text-align:center;color:inherit;opacity:.85;grid-column:1/-1}
 
