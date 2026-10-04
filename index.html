@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Meta CSP is the backup. Ship the same policy as a CloudFront response-headers policy, plus HSTS,
      frame-ancestors 'none' (ignored in a meta tag), X-Content-Type-Options, Referrer-Policy, Permissions-Policy. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; media-src 'self'; connect-src https://acp9reat3l.execute-api.us-east-1.amazonaws.com; form-action 'self'; base-uri 'none'; object-src 'none'; manifest-src 'self'; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; media-src 'self' https://media.theagentsignal.com; connect-src https://acp9reat3l.execute-api.us-east-1.amazonaws.com https://siagentsignal.com; form-action 'self'; base-uri 'none'; object-src 'none'; manifest-src 'self'; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>GOAT Scoop | Superintelligence (SI) &amp; Artificial Intelligence (AI): the greatest scoops, ranked</title>
 <meta name="description" content="The greatest scoops of all time in superintelligence (SI) and artificial intelligence (AI), ranked, each labelled fact or rumor with its source. SI is the new AI. Join the free preview.">
@@ -59,6 +59,21 @@
   <p class="si-note"><span class="si">Superintelligence (SI)</span>, the next generation of artificial intelligence (AI). Since Executive Order 14355 (29 Sep 2026), US federal agencies say "Super Intelligence" instead of "AI". A new name, not a claim that machines now outthink people. <span class="src">Source: <a href="https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/" target="_blank" rel="noopener">The White House<span class="sr"> (opens in a new tab)</span></a></span></p>
   <p class="proof">Built on over half a million articles, 22 categories, thousands of sources.</p>
 </div></section>
+
+<section class="hour" id="this-hour" aria-labelledby="hour-h">
+  <div class="hour-in">
+    <p class="hour-kick">Live from our news pipeline &middot; Founders&rsquo; Preview</p>
+    <h2 id="hour-h">This hour</h2>
+    <p class="hour-meta"><span id="hour-updated"></span><span id="hour-count"></span></p>
+    <p class="hour-warm" id="hour-warm">The hourly brief is warming up. Check back in a few minutes.</p>
+    <ol class="hour-stories" id="hour-stories"></ol>
+    <div class="hour-audio" id="hour-audio" hidden><p class="hour-aud-l">Listen to this hour (<span id="hour-secs"></span>)</p><audio id="hour-player" controls preload="none"></audio></div>
+    <p class="hour-tid" id="hour-tid"></p>
+    <div id="hour-ticker-wrap" hidden><p class="hour-tkh">Headline ticker</p><ul class="hour-ticker" id="hour-ticker"></ul></div>
+    <p class="hour-note">Each story is labelled CONFIRMED (the source says so on the record), REPORTED (outlets carry it, not confirmed) or STILL OPEN (unresolved). Every story links to its outlet and opens in a new tab.</p>
+  </div>
+</section>
+
 
 <section class="sec band" id="board" aria-labelledby="b-h"><div class="wrap narrow">
   <span class="kick">The GOAT Board</span>
@@ -265,5 +280,6 @@
     </div>
   </div>
 </dialog>
+<script src="assets/feed.js" defer></script>
 </body>
 </html>
