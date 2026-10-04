@@ -57,6 +57,7 @@ function render(d) {
       var when = s.published_at ? " · " + rel(s.published_at) : "";
       li.appendChild(el("p", "hour-src", "Source: " + outlet + when));
     }
+    if (label !== "CONFIRMED") li.appendChild(el("p", "hour-src hour-rule", (outlet ? "Reported by " + outlet + ". " : "") + "The companies involved have not confirmed it. We do not know whether it is true."));
     list.appendChild(li);
   });
   generated = d.generated_at; tickAge();

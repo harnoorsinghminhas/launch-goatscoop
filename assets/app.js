@@ -130,7 +130,7 @@ $$(".js-reserve").forEach(function (b) {
     pr.appendChild(document.createTextNode(", locked while you stay subscribed. ")); pr.appendChild(h("span", { class: "small" }, [T.yr]));
     $("#coSave").textContent = T.save;
     $("#coPay").textContent = "Reserve for " + T.dep;
-    $("#coRefund").textContent = "Refundable on request before launch only. This " + T.dep + " deposit reserves the founding price; it is not a subscription payment. All-in: no tax or fees added.";
+    $("#coRefund").textContent = "Refundable on request before launch only. This " + T.dep + " deposit reserves the founding price; it is not a subscription payment. The price shown is the price you pay at checkout.";
     $("#coInsider").textContent = INSIDER; $("#coInsider").hidden = false;
     openDlg();
   });
